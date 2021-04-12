@@ -78,8 +78,10 @@
     outline: none;
 }
 .header-input{
-    display: flex;
     margin-left: 42px;
+}
+.header-input form{
+    display: flex;
 }
 .header-input input::placeholder{
     font-size: 14px !important;
@@ -131,6 +133,8 @@
     padding: 16px 58px;
     margin-top: 86px;
     cursor: pointer;
+    border: none;
+    outline: none;
 
     font-weight: bold;
     font-size: 22px;
@@ -138,6 +142,18 @@
     text-align: center;
     letter-spacing: 0.1px;
     color: #38A3F1;
+}
+.head-deep-text button:hover{
+    background-color: #f1f1f1;
+}
+.laptop-text button:hover{
+    background-color: #f1f1f1;
+    border: 1px solid #38A3F1;
+    color: #38A3F1;
+    box-sizing: border-box;
+}
+button{
+    transition: 0.5s linear;
 }
 
 
@@ -307,6 +323,10 @@
 .color1 .margin{
     margin-top: 34px;
     background: #F4F4F4;
+    color: black;
+}
+.input-red:hover{
+    background-color: #db1065;
 }
 
 
@@ -317,7 +337,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 .partners-title{
     width: 300px;
@@ -508,7 +527,7 @@
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
-    transition: 0.4s linear;
+    transition: 0.7s linear !important;
 }
 .pricing-top h4{
     font-weight: bold;
@@ -569,6 +588,7 @@
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     color: #FFFFFF !important;
+    /* transition: 0.7s linear ; */
 }
 .pricing-box:hover p{
     color: #FFFFFF;
@@ -632,6 +652,7 @@
     background: #F5F5F5;
     border: 0.65371px solid #E8E8E8;
     margin-top: 31px;
+    outline: none;
 }
 .contact-left .pink{
     width: 94px;
@@ -641,6 +662,11 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.contact-left .pink:hover{
+    background-color: #fff;
+    border: 1px solid #EF2779;
+    color: #EF2779;
 }
 
 .contact-right{

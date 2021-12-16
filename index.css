@@ -1,0 +1,796 @@
+@font-face{
+    font-family: "Canela Web";
+    src: url(./fonts/Canela-Regular-Web.woff.ttf);
+}
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url(./fonts/poppins/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: "Canela Web medium";
+    src: url(./fonts/Canela-Medium-Web.woff.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #222;
+    font-family:"Helvetica Neue", 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: "Canela Web";
+    color: #1d4354;
+}
+
+
+
+
+
+.head{
+    height: 110px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #222;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.header{
+    height: 70px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.header-ul ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0;
+}
+.header-ul li{
+    padding: 9px 15px;
+    font-size: 14px;
+    list-style: none;
+    cursor: pointer;
+}
+.header-ul li:hover{
+    color: #37a000;
+}
+.header-form input{
+    width: 300px;
+    height: 40px;
+    padding: 10px 30px 10px 50px;
+    margin-left: 35px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 20px;
+    /* color: rgb(201, 201, 201); */
+    background-color: #fff;
+    outline: none;
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+.header-form input::placeholder{
+    font-size: 13px;
+    line-height: 100%;
+    color: rgb(190, 190, 190);
+    font-weight: 400;
+}
+.header-form a{
+    color: #222;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.header-form a:hover{
+    color: #4fce1d;
+}
+.signup{
+    padding: 6px 15px !important;
+    color: #fff !important;
+    background-color: #37a000;
+    border-radius: 8px;
+}
+.signup:hover{
+    background-color: #3a7a20;
+}
+
+
+.head-deep{
+    height: 40px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f1f1f1;
+}
+.head-deep ul{
+    height: 100%;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+.head-deep li{
+    list-style: none;
+    font-size: 12px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.head-deep li:hover{
+    color: #6fda44;
+}
+
+
+
+
+
+.contener{
+    width: 100vw;
+    margin-top: 110px;
+}
+.margin{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+.worldwork{
+    padding: 60px 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #1d4354 !important;
+}
+.worldwork-text h1{
+    font-family: "Canela Web medium";
+    font-size: 75px;
+    line-height: 95px;
+    margin-bottom: 40px;
+    /* font-weight: 500; */
+}
+.worldwork-text p{
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 55px;
+    display: block;
+    width: 75%;
+}
+.worldwork-text-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    height: auto;
+}
+.worldwork-text-btn button{
+    height: 40px;
+    width: 130px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.worldwork-text-btn .btn-success{
+    background-color: #37a000;
+}
+.worldwork-text-btn .btn-1{
+    border: 1px solid rgb(170, 168, 168);
+    color: #37a000;
+}
+
+.worldwork-logos{
+    margin-top: 80px;
+}
+.worldwork-logos img{
+    height: 26px;
+    margin-right: 50px;
+}
+
+
+
+
+.worldwork-img{
+    position: relative;
+}
+.worldwork-img-left{
+    width: 342px;
+    height: 342px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.worldwork-img-right{
+    width: 362px;
+    height: 362px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    border-left: 10px solid #fff;
+    border-top: 10px solid #fff;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.animation{
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+
+
+.findtalent{
+    padding-top: 40px;
+}
+.findtalent-text{
+    text-align: center;
+}
+.findtalent-text span{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #656565;
+    letter-spacing: 1.5px;
+    display: inline-block;
+}
+.findtalent-text h1{
+    font-size: 60px;
+    line-height: 80px;
+    /* font-weight: 300; */
+    margin-bottom: 30px;
+}
+.findtalent-text p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+
+}
+
+.findtalent-boxes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 0 15px;
+}
+.findtalent-box{
+    width: 360px;
+    height: 318px;
+    padding: 30px 80px 30px 30px;
+    box-shadow: 0 0 20px hsl(0deg 0% 40% / 12%);
+    position: relative;
+}
+.findtalent-box h1{
+    font-size: 36px;
+    line-height: 48px;
+}
+.findtalent-box p{
+    font-size: 18px;
+    line-height: 21px;
+    margin: 20px 0 30px 0;
+}
+.findtalent-absolute{
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #6fda44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.findtalent-box:hover{
+    background-color: #6fda44;
+    color: #fff !important;
+}
+.findtalent-box:hover h1{
+    color: #ffffff;
+}
+.findtalent-box:hover .findtalent-absolute{
+    background-color: #fff;
+}
+/* .findtalent-box:hover .findtalent-absolute svg{
+    color: #6fda44;
+    background-color: #6fda44;
+} */
+.findtalent-deep{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 40px 0 5px 0;
+    text-align: center;
+}
+.findtalent-deep a{
+    color: #37a000;
+    text-decoration: none;
+}
+.findtalent-deep a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.title-h1{
+    height: 780px;
+    padding: 40px 0;
+
+}
+.title-h1-left h1{
+    font-size: 72px;
+    line-height: 90px;
+    margin-bottom: 10px;
+    color: #222;
+}
+.title-h1-left h1:hover{
+    color: #37a000;
+}
+
+
+
+
+
+.boxess{
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    width: 750px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+
+
+
+
+.say{
+    height: 760px;
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.say-title{
+    position: absolute;
+    top: 0;
+}
+.say-title b{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2.8px;
+    margin-bottom: 50px;
+    color: #656565;
+}
+.say-text{
+    width: 490px;
+    height: auto;
+    color: #1d4354;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.say-text p{
+    font-family: "Canela Web";
+    font-size: 28px;
+    line-height: 45px;
+    margin: 30px 0;
+}
+.say-text b, .say-text span{
+    font-size: 18px;
+    line-height: 30px;
+}
+.say-center{
+    height: 690px;
+    width: 850px;
+}
+.say-center1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.say-right{
+    top: 100px;
+    right: 0;
+}
+.say-left{
+    bottom: 0;
+    left: 0;
+}
+.say-center img{
+    height: 378px;
+    position: absolute;
+}
+.absolute-top{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.absolute-deep{
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    border: 10px solid #ffffff;
+}
+
+
+
+
+
+.say-deep{
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.say-deep svg{
+    width: auto;
+    height: 14px;
+    display: inline-block;
+}
+.nav-star{
+    margin: 0 8px;
+    display: inline-block;
+}
+#up-rs{
+    color: #37a000;
+
+}
+.say-deep b{
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #1d4354;
+}
+.say-deep img{
+    height: 32px;
+    margin-top: -14px;
+}
+
+
+
+
+.skills{
+    padding: 40px 0 90px 0;
+}
+.skills h4{
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #656565;
+    margin-bottom: 25px;
+    font-family: inherit;
+    letter-spacing: 2.8px;
+    font-weight: 600;
+}
+.skills-boxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.skills-boxes button{
+    font-size: 18px;
+    line-height: 0;
+    padding: 19px;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+    border: 1px solid #2b5468;
+    background-color: #fff;
+    color: #1d4354 !important;
+    cursor: pointer;
+}
+.skills-boxes button:hover{
+    background-color: #2b5468;
+    color: #ffffff !important;
+}
+.skills-boxes a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #37a000;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.skills-boxes a:hover{
+    color: #008329;
+}
+.skills-deep{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-deep button{
+    width: 130px;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #37a000;
+    font-weight: 600;
+    border:  1px solid #c4c4c4;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+
+
+
+
+.deep{
+    width: 100vw;
+    color: #ffffff !important;
+    background-color: #1d4354;
+    padding: 50px 0 20px;
+
+}
+.deep-ul{
+    display: flex;
+    height: 330px;
+    justify-content: center;
+}
+.deep-ul ul{
+    width: 292px;
+    height: 100%;
+    padding: 0 15px;
+}
+.deep-ul h4{
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.deep-ul li{
+    font-size: 13px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+.deep li:hover{
+    text-decoration: underline;
+}
+.deep-logo{
+    height: 70px;
+    margin-top: 20px;
+    padding: 19px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #2b5468;
+    border-bottom: 1px solid #2b5468;
+}
+.deep-logo .follow, .mobile{
+    display: flex;
+    align-items: center;
+}
+.deep-logo svg{
+    width: 14px;
+}
+.deep-logo p{
+    margin-right: 15px;
+    margin-bottom: 0;
+    font-size: 13.5px;
+    line-height: 100%;
+}
+.logo-box{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2d5468;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff !important;
+}
+.mobile{
+    justify-content: flex-end;
+}
+.ul-deep{
+    padding: 20px 0 30px;
+    display: flex;
+    align-items: center;
+}
+.ul-deep li{
+    list-style: none;
+    padding-right: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+    border-right: 1px solid #2b5468;
+}
+.ul-deep li:hover{
+    text-decoration: none;
+}
+.ul-deep a{
+    padding: 0 5px;
+    margin-right: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.ul-deep a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*                ///////                   */
+/*               ///////                   */
+/*              media              */
+/*                ///////                   */
+/*               ///////                   */
+
+
+
+@media screen and (max-width:700px) {
+    .head-deep{
+        display: none;
+    }
+    .header-ul{
+        display: none;
+    }
+    .header-form input{
+        display: none;
+    }
+    .header{
+        height: 140px;
+        width: 90%;
+    }
+    .contener{
+        width: 100vw;
+        /* position: relative; */
+    }
+    .margin{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .worldwork{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+        /* padding-bottom: 0; */
+    }
+    .worldwork-text h1{
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .worldwork-text p{
+        font-size: 14px;
+        font-weight: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .worldwork-logos{
+        display: none;
+    }
+    .worldwork-img{
+        width: 100vw;
+        height: 100%;
+        /* position: absolute;
+        left: 0; */
+    }
+    .worldwork-img img{
+        width: 60%;
+        height: auto;
+    }
+    .worldwork-img-right{
+        top: 30px;
+        right: 0;
+    }
+
+    .findtalent{
+        padding: 20px 0;
+    }
+    .findtalent-text span{
+        font-size: 10px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .findtalent-text h1{
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .findtalent-text p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .findtalent-boxes{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        padding: 0 5px;
+    }
+    .findtalent-box{
+        width: 100%;
+        height: 145px;
+        padding: 20px;
+    }
+    .findtalent-box h1{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .findtalent-box p{
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 10px;
+    }
+    .findtalent-absolute{
+        width: 51px;
+        height: 51px;
+    }
+    .findtalent-deep{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .title-h1{
+        height: 100%;
+        padding: 20px 0;
+    }
+    .title-h1-left h1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .findtalent-text p{
+        margin-bottom: 30px;
+    }
+
+
+    .say{
+        flex-direction: column;
+    }
+    .say-title{
+        position: unset;
+    }
+    .say-title b{
+        font-size: 10px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .say-center{
+        width: 90%;
+        height: 70vw;
+    }
+    .say-center img{
+        height: auto;
+        width: 60%;
+        position: absolute;
+    }
+    .say-center1{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .say-text{
+        position: initial;
+        width: 100%;
+    }
+    .say-right{
+        top: 100px;
+        right: 0;
+    }
+    .say-left{
+        bottom: 0;
+        left: 0;
+    }
+
+
+
+}
